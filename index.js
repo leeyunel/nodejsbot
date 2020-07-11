@@ -8,7 +8,7 @@ const byeChannelComment = "안녕히가세요.";
 
 client.on('ready', () => {
   console.log('켰다.');
-  client.user.setPresence({ game: { name: '연꽃샵.com 24시자충.' }, status: 'online' })
+  client.user.setPresence({ game: { name: '연꽃샵.net 24시자충.' }, status: 'online' })
 });
 
 client.on("guildMemberAdd", (member) => {

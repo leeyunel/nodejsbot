@@ -111,7 +111,7 @@ client.on('message', (message) => {
       let contents = message.content.slice('!연꽃'.length);
       let embed = new Discord.RichEmbed()
         .setAuthor('연꽃샵 공지방')
-        .setColor('#186de6')
+        .setColor('#000000')
         .setFooter(`!연꽃샵#1664 BOT ❤️`)
         .setTimestamp()
   
